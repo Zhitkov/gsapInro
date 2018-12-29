@@ -1,0 +1,180 @@
+body{
+	background: #aaa;
+	width: 100vw;
+	height: 100vh;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.arrows> img{
+	cursor: pointer;
+}
+.container{
+	display:flex;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-align-self: center;
+	        align-self: center;
+	width:90vw;
+    height:90vh;
+	margin: 5vh 5vw;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	color: white
+}
+.container > .slider{
+    object-fit: cover;
+	width: 50%;
+	/*height:90vh;*/
+	padding: 5vh 5vw;
+	/*background: url(https://www.zegna.ru/content/dam/Zegna/FW17/elements-of-man/black-and-white-photographic-representation-of-integrity_mobile.jpg);*/
+}
+.container > .slider > .nav{
+	width: 100%;
+	display: flex;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-align-self: center;
+	        align-self: center;
+	max-width: 600px;
+}
+.container > .slider > .nav > .share{
+        margin-left: 27vw;
+}
+.rect-grid{
+	display: grid;
+	grid-template-columns: 10px 10px;
+	grid-template-rows: 10px 10px;
+	grid-gap: 5px;
+    align-self: center;
+}
+.rect-grid > .rects{
+	background: #fff;
+}
+.container > .slider > .desc{
+	display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 87%;
+    justify-content: center;
+}
+.container > .slider > .desc > a{
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+    width: 160px;
+    
+}
+img{
+	width:50px;
+}
+.container > .slider > .footer{
+    display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+    -webkit-align-content: flex-end;
+            align-content: flex-end;
+	max-width: 600px;
+        
+}
+.container > .slider > .footer > .arrows{
+	
+}
+.container > .slider > .footer > .arrows > img{
+	border: white 1px solid;
+}
+.container > .slider > .footer > .link{
+	display: flex;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+.liked{
+	    align-self: center;
+    margin: 0 10px;
+    color: gray;
+}
+.prime-button{
+	width: 80px;
+	height: 80px;
+	background: #00F;
+    z-index: 99;
+/*    position: absolute;
+    display: flex;
+    align-self: flex-end;
+    margin: -4vh 6.2%;*/
+    display: flex;
+    align-self: flex-end;
+    
+
+}
+.share> p{
+	    margin-right: 15px;
+}
+.circle{
+	
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+}
+/*.container > .slider > .footer > .button > .circle{
+	background: #00F;
+}*/
+.container > .info{
+	display: flex;
+	-webkit-align-content: flex-end;
+	        align-content: flex-end;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+	    background: url(https://images4.esquire.ru/upload/custom/d95/d95bb39d5f7ca464658f303e0669e896.jpg);
+	    object-fit: cover;
+    width:35%;
+	padding: 5vh 5vw;
+	    /*min-width: 140px;*/
+
+    /*height:90vh;*/
+}
+.container > .info > .footer{
+	    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-self: flex-end;
+
+}
+.container > .info > .footer > .likes{
+	display: flex;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+    -webkit-align-self: center;
+            align-self: center;
+}
+/*.container > .info > .footer > .heart{
+	display: flex;
+	-webkit-justify-content: center;
+	        justify-content: center;
+    -webkit-align-self: center;
+            align-self: center;
+}*/
+.container > .info > .footer > .border > p{
+	width:100%;
+	border: solif #aaa 2px;
+}
+.people > .circle{
+	width:50px;
+	height:50px;
+}
+.container > .info > .footer > .share{
+    justify-content: center;
+    align-self: center;
+}
+
+.share > img{
+	width:20px
+}
+.heart{
+	    padding: 16px;
+	    width: 20px;
+	    background-color: white;
+}
